@@ -1,3 +1,5 @@
+package singlylinkedlist;
+
 public class MyLinkedList<T> {
 
     private MyNode<T> head;

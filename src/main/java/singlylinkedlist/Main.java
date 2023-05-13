@@ -1,3 +1,7 @@
+package singlylinkedlist;
+
+import singlylinkedlist.MyLinkedList;
+
 public class Main {
     public static void main(String[] args) {
         MyLinkedList<String> myLinkedList = new MyLinkedList<>();

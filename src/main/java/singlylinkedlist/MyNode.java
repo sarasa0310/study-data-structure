@@ -1,3 +1,5 @@
+package singlylinkedlist;
+
 public class MyNode<T> {
 
     private T data;
