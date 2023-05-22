@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f9996db-f9b6-4f27-8660-787e63a39741" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/tree/MyTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tree/MyTreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/singlylinkedlist/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/singlylinkedlist/MyLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +53,20 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MyLinkedList">
+  <component name="RunManager" selected="Application.MyTree">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binarysearch.BinarySearch" />
+      <module name="study-data-structure.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="binarysearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="singlylinkedlist.Main" />
       <module name="study-data-structure.main" />
@@ -86,8 +100,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.MyTree" />
+      <module name="study-data-structure.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyTree" />
+        <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.MyLinkedList" />
         <item itemvalue="Application.MyDoublyLinkedList" />
         <item itemvalue="Application.Main" />
@@ -108,7 +137,9 @@
       <workItem from="1683955416270" duration="4002000" />
       <workItem from="1683968051473" duration="227000" />
       <workItem from="1684053216818" duration="48000" />
-      <workItem from="1684148850130" duration="2380000" />
+      <workItem from="1684148850130" duration="5680000" />
+      <workItem from="1684728581409" duration="60000" />
+      <workItem from="1684736207235" duration="3040000" />
     </task>
     <servers />
   </component>
