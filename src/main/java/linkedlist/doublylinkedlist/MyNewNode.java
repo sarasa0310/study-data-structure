@@ -1,6 +1,6 @@
-package doublylinkedlist;
+package linkedlist.doublylinkedlist;
 
-import singlylinkedlist.MyNode;
+import linkedlist.singlylinkedlist.MyNode;
 
 public class MyNewNode<T> extends MyNode<T> {
 

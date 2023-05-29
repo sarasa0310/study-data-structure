@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f9996db-f9b6-4f27-8660-787e63a39741" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/binarysearchtree/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sorting/bubblesort/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sorting/mergesort/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/SortingHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/binarysearchtree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tree/binarysearchtree/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/doublylinkedlist/MyDoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/doublylinkedlist/MyDoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/doublylinkedlist/MyNewNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/doublylinkedlist/MyNewNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/singlylinkedlist/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/singlylinkedlist/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/singlylinkedlist/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/singlylinkedlist/MyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/singlylinkedlist/MyNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/singlylinkedlist/MyNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +60,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BinarySearchTree">
+  <component name="RunManager" selected="Application.MergeSort">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="binarysearch.BinarySearch" />
       <module name="study-data-structure.main" />
@@ -79,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyDoublyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="doublylinkedlist.MyDoublyLinkedList" />
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.bubblesort.BubbleSort" />
       <module name="study-data-structure.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="doublylinkedlist.*" />
+          <option name="PATTERN" value="sorting.bubblesort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="singlylinkedlist.MyLinkedList" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.mergesort.MergeSort" />
       <module name="study-data-structure.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="singlylinkedlist.*" />
+          <option name="PATTERN" value="sorting.mergesort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.BinarySearchTree" />
         <item itemvalue="Application.MyTree" />
         <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.MyLinkedList" />
-        <item itemvalue="Application.MyDoublyLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +154,7 @@
       <workItem from="1684728581409" duration="60000" />
       <workItem from="1684736207235" duration="3515000" />
       <workItem from="1684746853647" duration="198000" />
-      <workItem from="1684819954943" duration="2743000" />
+      <workItem from="1684819954943" duration="5524000" />
     </task>
     <servers />
   </component>

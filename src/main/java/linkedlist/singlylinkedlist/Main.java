@@ -1,6 +1,4 @@
-package singlylinkedlist;
-
-import singlylinkedlist.MyLinkedList;
+package linkedlist.singlylinkedlist;
 
 public class Main {
     public static void main(String[] args) {
