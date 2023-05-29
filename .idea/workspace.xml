@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f9996db-f9b6-4f27-8660-787e63a39741" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/sorting/bubblesort/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sorting/mergesort/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/SortingHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/binarysearchtree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tree/binarysearchtree/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/doublylinkedlist/MyDoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/doublylinkedlist/MyDoublyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/doublylinkedlist/MyNewNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/doublylinkedlist/MyNewNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/singlylinkedlist/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/singlylinkedlist/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/singlylinkedlist/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/singlylinkedlist/MyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/singlylinkedlist/MyNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/singlylinkedlist/MyNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/mergesort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/mergesort/MergeSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +146,7 @@
       <workItem from="1684728581409" duration="60000" />
       <workItem from="1684736207235" duration="3515000" />
       <workItem from="1684746853647" duration="198000" />
-      <workItem from="1684819954943" duration="5524000" />
+      <workItem from="1684819954943" duration="6234000" />
     </task>
     <servers />
   </component>

@@ -21,8 +21,7 @@ public class MergeSort {
         int leftPos = 0, rightPos = 0, curIdx = 0;
 
         while (left.length > leftPos && right.length > rightPos) {
-            merged[curIdx] = (left[leftPos] < right[rightPos]) ? left[leftPos++] : right[rightPos++];
-            curIdx++;
+            merged[curIdx++] = (left[leftPos] < right[rightPos]) ? left[leftPos++] : right[rightPos++];
         }
 
         System.arraycopy(left, leftPos, merged, curIdx, left.length - leftPos);
