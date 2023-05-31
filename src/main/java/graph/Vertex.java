@@ -17,6 +17,10 @@ public class Vertex {
         return data;
     }
 
+    public List<Edge> getEdges() {
+        return edges;
+    }
+
     public void addEdge(Vertex target, Integer weight) {
         Edge edge = new Edge(this, target, weight);
         edges.add(edge);

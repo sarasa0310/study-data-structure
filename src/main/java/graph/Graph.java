@@ -2,6 +2,8 @@ package graph;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Queue;
+import java.util.concurrent.ConcurrentLinkedQueue;
 
 public class Graph {
 
@@ -62,6 +64,37 @@ public class Graph {
         }
     }
 
+    public static void dfs(Vertex start, ArrayList<Vertex> visited) {
+        System.out.println(start.getData());
+
+        for (Edge e : start.getEdges()) {
+            Vertex neighbor = e.getEnd();
+
+            if (!visited.contains(neighbor)) {
+                visited.add(neighbor);
+                dfs(neighbor, visited);
+            }
+        }
+    }
+
+    public static void bfs(Vertex start, ArrayList<Vertex> visited) {
+        Queue<Vertex> visitQueue = new ConcurrentLinkedQueue<>();
+        visitQueue.add(start);
+
+        while (!visitQueue.isEmpty()) {
+            Vertex current = visitQueue.poll();
+            System.out.println(current.getData());
+
+            for (Edge e : current.getEdges()) {
+                Vertex neighbor = e.getEnd();
+                if (!visited.contains(neighbor)) {
+                    visited.add(neighbor);
+                    visitQueue.add(neighbor);
+                }
+            }
+        }
+    }
+
     public static void main(String[] args) {
         Graph airPortNetwork = new Graph(true, false);
 
@@ -71,6 +104,9 @@ public class Graph {
         Vertex jeju = airPortNetwork.addVertex("CJU");
         Vertex daegu = airPortNetwork.addVertex("TAE");
 
+        Vertex beijing = airPortNetwork.addVertex("PEK");
+        Vertex narita = airPortNetwork.addVertex("NRT");
+
         airPortNetwork.removeVertex(gimpo);
 
         airPortNetwork.addEdge(incheon, daegu, 330);
@@ -79,11 +115,20 @@ public class Graph {
         airPortNetwork.addEdge(jeju, daegu, 430);
         airPortNetwork.addEdge(gimhae, jeju, 380);
 
+        airPortNetwork.addEdge(incheon, beijing, 300);
+        airPortNetwork.addEdge(gimhae, narita, 300);
+
         airPortNetwork.removeEdge(incheon, jeju);
 
         airPortNetwork.print();
 
         System.out.println(airPortNetwork.findVertex("ICN"));
+
+        ArrayList<Vertex> visited = new ArrayList<>();
+        visited.add(daegu);
+
+        dfs(daegu, visited);
+//        bfs(daegu, visited);
     }
 
 }
