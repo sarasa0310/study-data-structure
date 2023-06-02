@@ -17,6 +17,10 @@ public class Graph {
         this.isDirected = isDirected;
     }
 
+    public List<Vertex> getVertices() {
+        return vertices;
+    }
+
     // 버텍스 추가
     public Vertex addVertex(String data) {
         Vertex vertex = new Vertex(data);
