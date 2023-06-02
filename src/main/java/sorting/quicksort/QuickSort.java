@@ -1,4 +1,4 @@
-package sorting;
+package sorting.quicksort;
 
 import utils.SortingHelper;
 
